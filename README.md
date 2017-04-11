@@ -264,7 +264,7 @@ charles_ca_key.pem -in charles_ca_cert.pem
 ![cert7](images/cert7.png)
 
 
-####　4 实践
+#### 4 实践
 
 ##### 4.1 HTTP Script 注入
 
