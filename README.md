@@ -208,7 +208,7 @@ Rewrite 可以通过正则表达式匹配并添加、修改、删除请求或响
 
 ![r1](images/3.13.1.jpg)
 
-####　![r2](images/3.13.2.jpg)
+![r2](images/3.13.2.jpg)
 
 ##### 3.14 Map Local/Remote 
 
@@ -262,6 +262,7 @@ charles_ca_key.pem -in charles_ca_cert.pem
 ![cert6](images/cert6.png)
 
 ![cert7](images/cert7.png)
+
 
 ####　4 实践
 
