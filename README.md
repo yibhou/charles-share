@@ -1,6 +1,6 @@
 #### 1 Charles 简介 
 
-![charles_hdr.f03a5646](images\charles_hdr.f03a5646.png)
+![charles_hdr.f03a5646](images/charles_hdr.f03a5646.png)
 
 Charles 是一个支持多平台的 HTTP 代理器、HTTP 监控、反向代理器。它能够让开发者查看本地机器与互联网之间的所有 HTTP 以及 SSL/HTTPS 传输数据。包括请求数据、响应数据 以及 HTTP 头部信息（包括 Cookie 和缓存信息）。
 
@@ -19,13 +19,13 @@ Charles 是一个支持多平台的 HTTP 代理器、HTTP 监控、反向代理�
 
 ##### 1.2 界面介绍
 
-![G8V1N51AOL6%M3MB7_R{X](images\1.2.1.jpg)
+![G8V1N51AOL6%M3MB7_R{X](images/1.2.1.jpg)
 
 
 
-![794HAFRD`O$GNWBF1ZVO552](images\1.2.2.jpg)
+![794HAFRD`O$GNWBF1ZVO552](images/1.2.2.jpg)
 
- ![1PX89(S4)NRM$N2%A39%}V](./images\1.2.3.jpg)
+ ![1PX89(S4)NRM$N2%A39%}V](./images/1.2.3.jpg)
 
 #### 2 下载与安装
 
@@ -57,28 +57,28 @@ Charles 是一个支持多平台的 HTTP 代理器、HTTP 监控、反向代理�
 
 Charles支持两种模式，`Structure`和`Sequence`，其优点分别如下：
 
-- Structure：可以很清晰的看到请求的数据结构，而且是以域名划分请求信息的，可以很清晰的去分析和处理数据。![a](images\3.2.1.jpg)
-- Sequence：可以很清晰的看到全部请求，不用一层一层的去点开，这里是以数据请求的顺序去执行的，也就是说那个请求快就在前面显示。![b](images\3.2.2.jpg)
+- Structure：可以很清晰的看到请求的数据结构，而且是以域名划分请求信息的，可以很清晰的去分析和处理数据。![a](images/3.2.1.jpg)
+- Sequence：可以很清晰的看到全部请求，不用一层一层的去点开，这里是以数据请求的顺序去执行的，也就是说那个请求快就在前面显示。![b](images/3.2.2.jpg)
 
 ##### 3.3 重复请求功能
 
-![@QH3~$`ID5MPDN(1L5QNY](images\3.3.1.jpg)
+![@QH3~$`ID5MPDN(1L5QNY](images/3.3.1.jpg)
 
 使用Repeat Advanced 还可以指定请求次数，这个功能非常有用，比如用来测试短信轰炸漏洞很方便。
 
- ![333](images\3.3.2.jpg)
+![333](images/3.3.2.jpg)
 
-#####  ![888](images\3.3.3.jpg)
+![888](images/3.3.3.jpg)
 
 ##### 3.4 查找功能
 
 点击工具栏的放大镜或者使用快捷键command+F 即可打开查找面板：
 
-![find](images\3.4.1.jpg)
+![find](images/3.4.1.jpg)
 
 双击查找结果会跳到想要的结果：
 
-![find2](images\3.4.2.jpg)
+![find2](images/3.4.2.jpg)
 
 ##### 3.5 过滤网络请求
 
@@ -94,11 +94,11 @@ Charles支持两种模式，`Structure`和`Sequence`，其优点分别如下：
 
 对想要Focus的域名，右键菜单-选择Focus，这个域名就会添加到Focused列表，可以在这里找到：
 
-![f1](images\3.6.1.jpg)
+![f1](images/3.6.1.jpg)
 
- ![f2](images\3.6.2.jpg)
+ ![f2](images/3.6.2.jpg)
 
-##### ![f3](images\3.6.3.jpg)
+##### ![f3](images/3.6.3.jpg)
 
 ##### 3.7 控制网速
 
@@ -110,15 +110,15 @@ Charles支持两种模式，`Structure`和`Sequence`，其优点分别如下：
 
 ##### 3.8 构造请求
 
-![45](images\3.8.1.jpg)
+![45](images/3.8.1.jpg)
 
 点击compose按钮进入下图，就可以随便 添加Headers 或者query参数，HTTP版本支持HTTP1.0/1.1/2.0。
 
-![46](images\3.8.2.jpg)
+![46](images/3.8.2.jpg)
 
  点击执行就得到想要的报文了：
 
-![47](images\3.8.3.jpg)
+![47](images/3.8.3.jpg)
 
 ##### 3.9 修改请求
 
@@ -134,27 +134,27 @@ Charles支持两种模式，`Structure`和`Sequence`，其优点分别如下：
 
  首先开启断点功能，然后再到想要设置断点的请求上，右键设置一个断点，如图所示：
 
-![d1](images\3.10.1.jpg)
+![d1](images/3.10.1.jpg)
 
  然后我们看看这个断点是否加入到断点设置面板：
 
-![d2](images\3.10.2.jpg)
+![d2](images/3.10.2.jpg)
 
 果然加到这里，而且默认是拦截请求和响应，如果只需两者之一，那就双击另行设置，我这里就不改了：
 
-![d3](images\3.10.3.jpg)
+![d3](images/3.10.3.jpg)
 
  然后，我们再次发起请求，试下是否生效了：
 
-![d4](images\3.10.4.jpg)
+![d4](images/3.10.4.jpg)
 
 OK，没问题，在请求发送到服务器之前就被我们拦截了，这时，我们可以根据需要修改请求报文，这里我们就默认执行：
 
-![d5](images\3.10.5.jpg)
+![d5](images/3.10.5.jpg)
 
  断点再一次生效，不过这次是拦截了响应，同样，我们可以在响应返回到客户端之前根据需要修改响应报文：
 
-![d6](images\3.10.6.jpg)
+![d6](images/3.10.6.jpg)
 
 ##### 3.11 使用Charles抓取 iOS/Android 设备的网络包
 
@@ -172,33 +172,33 @@ OK，没问题，在请求发送到服务器之前就被我们拦截了，这时
 
 原理：Charles实现对HTTPS进行抓包，使用的原理就是中间人技术（man-in-the-middle）。Charles会动态生成一个使用自己根证书签名的证书，Charles接收web服务器的证书，而客户端/浏览器接收Charles生成的证书，以此客户端和Charles之间建立HTTPS连接，Charles和Web服务器之间建立HTTPS连接，实现对HTTPS传输信息的抓包。如果Charles根证书不被信任则无法建立HTTPS连接，所以需要添加Charles根证书为信任证书。
 
- ![1121998-f4aac7356d979e5e](images\3.12.1.png)
+ ![1121998-f4aac7356d979e5e](images/3.12.1.png)
 
 
 
-首先在电脑上安装Charles证书：菜单栏找到 Help - SSL Proxying - Install Charles Root Certificate 安装证书。![8](images\3.12.2.jpg)
+首先在电脑上安装Charles证书：菜单栏找到 Help - SSL Proxying - Install Charles Root Certificate 安装证书。![8](images/3.12.2.jpg)
 
 给Mac安装证书：
 
- ![9](images\3.12.3.jpg)
+ ![9](images/3.12.3.jpg)
 
 设置为信任证书：
 
-![1121998-2115212d231e8c90](images\3.12.4.png)
+![1121998-2115212d231e8c90](images/3.12.4.png)
 
 然后回到Charles，因为Charles默认不监听HTTPS请求，所以还需要开启SSL代理功能：在Proxy - SSL Proxying Setting中激活，即勾选 Enable SSL Proxying 选项。并添加域名端口，匹配想要监听的域名端口，这里可以添加`*:443`或`*:*`匹配全部：
 
- ![10](images\3.12.5.jpg)
+ ![10](images/3.12.5.jpg)
 
 如果是需要抓取手机的HTTPS请求，还需要多操作一步，就是在手机上安装相应证书：
 
 同样找到Help - SSL Proxying - Install Charles Root Certificate on a Mobile Device or Remote Browser.. ，按照弹出的提示会让你将手机切换为手动代理到电脑的Charles，然后用浏览器打开提示上面的地址下载安装证书。 
 
-![12](images\3.12.6.jpg)
+![12](images/3.12.6.jpg)
 
-![11](images\3.12.7.png)
+![11](images/3.12.7.png)
 
-然后就可以随意抓HTTPS包了： ![11](images\3.12.8.jpg)
+然后就可以随意抓HTTPS包了： ![11](images/3.12.8.jpg)
 
 ##### 3.13 Rewrite重写功能
 
@@ -206,9 +206,9 @@ Rewrite 可以通过正则表达式匹配并添加、修改、删除请求或响
 
 首先在菜单栏找到Tools-Rewrite..打开设置面板：
 
-![r1](images\3.13.1.jpg)
+![r1](images/3.13.1.jpg)
 
-####　![r2](images\3.13.2.jpg)
+####　![r2](images/3.13.2.jpg)
 
 ##### 3.14 Map Local/Remote 
 
@@ -216,7 +216,7 @@ Rewrite 可以通过正则表达式匹配并添加、修改、删除请求或响
 
 可以通过菜单Tools-找到这些功能的设置，这里以Map Local举栗：
 
-![555](images\3.14.1.jpg)
+![555](images/3.14.1.jpg)
 
 ##### 3.15 Firefox 调试
 
@@ -269,11 +269,11 @@ charles_ca_key.pem -in charles_ca_cert.pem
 
 在 Charles 里脚本注入非常简单，只需使用 Rewrite 功能简单的配置一下即可实现：
 
-![re](images\4.1.1.jpg)
+![re](images/4.1.1.jpg)
 
 这段脚本就是弹出一段文字：
 
-![rr1](images\4.1.2.jpg)
+![rr1](images/4.1.2.jpg)
 
 ##### 4.2 HTTP Mock
 
@@ -289,15 +289,15 @@ charles_ca_key.pem -in charles_ca_cert.pem
 
 然后：
 
-![555](images\3.14.1.jpg)
+![555](images/3.14.1.jpg)
 
-![yyy](images\4.2.1.jpg)
+![yyy](images/4.2.1.jpg)
 
 
 
 可是，问题来了。Fiddler的AutoResponder提供了许多默认的返回响应码，比如40X，50X等等。貌似 Map Local并没有提供，确实是没有提供，那怎么办呢？还记得前面提到的Rewrite功能吗，它提供了修改响应状态的方式，过程如下：
 
-![777](images\4.2.2.jpg)
+![777](images/4.2.2.jpg)
 
 ##### 4.3 AppStore 抓包
 
@@ -307,33 +307,33 @@ charles_ca_key.pem -in charles_ca_cert.pem
 
 **首先进入AppStore把酷狗直播App所在页面恢复Download按钮：**
 
-![01](images\4.3.0.jpg)
+![01](images/4.3.0.jpg)
 
 
 
-![022](images\4.3.1.jpg)
+![022](images/4.3.1.jpg)
 
 
 
 **然后点击Download下载App，然后到下载框里面选中App按Delete键两次（一次停止下载一次删除下载），这一步是为了获取App的下载信息以及为断点设置作准备：**
 
-![02](images\4.3.2.jpg)
+![02](images/4.3.2.jpg)
 
 **看到Charles Structure视图的好处了吧，直接看域名找到接口。右侧响应数据包含了最新版本号和历史版本号：**
 
-![03](images\4.3.3.jpg)
+![03](images/4.3.3.jpg)
 
 **由于这么多id，不知道哪个是3.2.0，所以就需要上文说到的修改请求：**
 
-![z6](images\4.3.4.jpg)
+![z6](images/4.3.4.jpg)
 
 **最终找到3.2.0版本对应的id是819441670：**
 
-![0333](images\4.3.5.jpg)
+![0333](images/4.3.5.jpg)
 
 **OK，接下来就为这个接口设置下断点，并启动断点捕获，然后清空所有请求数据：**
 
- ![04](images\4.3.6.jpg)
+ ![04](images/4.3.6.jpg)
 
 ****
 
@@ -341,23 +341,23 @@ charles_ca_key.pem -in charles_ca_cert.pem
 
 **回到Charles看看，可看到请求被拦截了，我们可以编辑请求：**
 
-![z1](images\4.3.7.jpg)
+![z1](images/4.3.7.jpg)
 
-![z2](images\4.3.8.jpg)
+![z2](images/4.3.8.jpg)
 
 **点击Execute执行，响应也被拦截了，因为设置断点默认包括请求和响应：**
 
-![z3](images\4.3.9.jpg)
+![z3](images/4.3.9.jpg)
 
 **这里不需要修改响应，直接Execute执行。**
 
 **回到AppStore，已经看到在下载了：**
 
- ![z4](images\4.3.10.jpg)
+ ![z4](images/4.3.10.jpg)
 
 **下载完成后，可以看到，酷狗直播是3.2.0了：**
 
- ![z5](images\4.3.11.jpg)
+ ![z5](images/4.3.11.jpg)
 
 #### 5 参考文献
 
